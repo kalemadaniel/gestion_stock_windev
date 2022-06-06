@@ -1,0 +1,6 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+tb_mvt		NNF*	tbmvt	nouveau nom tb_mvt
+tb_fournisseur		NFI		nouveau fichier
+tb_bailleur		NFI		nouveau fichier
+tb_service		NFI		nouveau fichier
+tb_mvt		FRN		

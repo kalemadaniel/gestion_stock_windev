@@ -1,0 +1,6 @@
+;PCSoft - Hyper File V7.00 - REP V7.00
+;Do not edit. Please use specific tools.
+ANALYSISGUID=9	;Analysis GUID
+LOCALIZATION_UTF8=D0E24414DC4A47C7B6EEAFA8B12B71F2	tb_service	C:\Mes Projets\gestion_stock\Exe\tb_service.fic
+LOCALIZATION_UTF8=76F27B4F937D4D1B852283FCC7D63A27	tb_bailleur	C:\Mes Projets\gestion_stock\Exe\tb_bailleur.fic
+LOCALIZATION_UTF8=33DF30DA6905454AAF32692F5881EDEB	tb_fournisseur	C:\Mes Projets\gestion_stock\Exe\tb_fournisseur.fic
