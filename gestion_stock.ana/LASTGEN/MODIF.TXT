@@ -1,2 +1,5 @@
-//MO006-007.TXT ANA00006 TO ANA00007
-liste_Sous_Famille		VIEW+		La vue liste_Sous_Famille a été créée.
+//MO007-008.TXT ANA00007 TO ANA00008
+tb_produit		TAR	149	nouvelle taille enregistrement : 149
+tb_produit	Ref_sous_famille	RUB+		Ref_sous_famille est une nouvelle clé
+tb_produit	codesousFamille	RUB-		la rubrique codesousFamille est supprimée
+Contrainte_tb_sous_famille_tb_produit		NWL	tb_sous_famille (Id_sous_famille) et tb_produit (Ref_sous_famille)	Nouvelle liaison entre les fichiers tb_sous_famille (Id_sous_famille) et tb_produit (Ref_sous_famille)
