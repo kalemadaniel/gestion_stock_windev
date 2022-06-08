@@ -1,3 +1,2 @@
-//MO005-006.TXT ANA00005 TO ANA00006
-tb_sous_famille		NFI		nouveau fichier
-Contrainte_tb_famille_tb_sous_famille		NWL	tb_famille (id_famille) et tb_sous_famille (Ref1_famille)	Nouvelle liaison entre les fichiers tb_famille (id_famille) et tb_sous_famille (Ref1_famille)
+//MO006-007.TXT ANA00006 TO ANA00007
+liste_Sous_Famille		VIEW+		La vue liste_Sous_Famille a été créée.
