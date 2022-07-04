@@ -1,0 +1,3 @@
+//MO009-010.TXT ANA00009 TO ANA00010
+tb_produit		TAR	138	nouvelle taille enregistrement : 138
+tb_produit	etat_prod	RUB-		la rubrique etat_prod est supprimée

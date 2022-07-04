@@ -1,0 +1,9 @@
+//MO011-012.TXT ANA00011 TO ANA00012
+tb_mvt		TAR	553	nouvelle taille enregistrement : 553
+tb_mvt	Ref_produit	RUB+		Ref_produit est une nouvelle clé
+tb_mvt	Ref_fournisseur	RUB+		Ref_fournisseur est une nouvelle clé
+tb_mvt	codeProduit	RUB-		la rubrique codeProduit est supprimée
+tb_mvt	Fournisseur	RUB-		la rubrique Fournisseur est supprimée
+tb_mvt	Bailleur	RUB-		la rubrique Bailleur est supprimée
+Contrainte_tb_produit_tb_mvt		NWL	tb_produit (id_produit) et tb_mvt (Ref_produit)	Nouvelle liaison entre les fichiers tb_produit (id_produit) et tb_mvt (Ref_produit)
+Contrainte_tb_fournisseur_tb_mvt		NWL	tb_fournisseur (IDtb_fournisseur) et tb_mvt (Ref_fournisseur)	Nouvelle liaison entre les fichiers tb_fournisseur (IDtb_fournisseur) et tb_mvt (Ref_fournisseur)

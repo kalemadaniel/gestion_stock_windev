@@ -1,0 +1,14 @@
+//MO014-015.TXT ANA00014 TO ANA00015
+tb_entree		NFI		nouveau fichier
+tb_detail_entree		NFI		nouveau fichier
+tb_sortie		NFI		nouveau fichier
+tb_detail_sortie		NFI		nouveau fichier
+tb_mvt		FIC-	tb_mvt	Fichier supprimé tb_mvt
+tb_bailleur		FIC-	tb_bailleur	Fichier supprimé tb_bailleur
+Contrainte_tb_fournisseur_tb_entree		NWL	tb_fournisseur (IDtb_fournisseur) et tb_entree (Ref_fournisseur)	Nouvelle liaison entre les fichiers tb_fournisseur (IDtb_fournisseur) et tb_entree (Ref_fournisseur)
+Contrainte_tb_entree_tb_detail_entree		NWL	tb_entree (Id_entree) et tb_detail_entree (Ref_entree)	Nouvelle liaison entre les fichiers tb_entree (Id_entree) et tb_detail_entree (Ref_entree)
+Contrainte_tb_produit_tb_detail_entree		NWL	tb_produit (id_produit) et tb_detail_entree (Ref_produit)	Nouvelle liaison entre les fichiers tb_produit (id_produit) et tb_detail_entree (Ref_produit)
+Contrainte_tb_produit_tb_mvt		DEL	tb_produit (id_produit) et tb_mvt (Ref_produit)	Liaison supprimée entre les fichiers tb_produit (id_produit) et tb_mvt (Ref_produit)
+Contrainte_tb_fournisseur_tb_mvt		DEL	tb_fournisseur (IDtb_fournisseur) et tb_mvt (Ref_fournisseur)	Liaison supprimée entre les fichiers tb_fournisseur (IDtb_fournisseur) et tb_mvt (Ref_fournisseur)
+Peut effectuer		DEL	tb_service (IDtb_service) et tb_mvt (Ref_service)	Liaison supprimée entre les fichiers tb_service (IDtb_service) et tb_mvt (Ref_service)
+Contrainte_tb_bailleur_tb_mvt		DEL	tb_bailleur (IDtb_bailleur) et tb_mvt (Ref_bailleur)	Liaison supprimée entre les fichiers tb_bailleur (IDtb_bailleur) et tb_mvt (Ref_bailleur)

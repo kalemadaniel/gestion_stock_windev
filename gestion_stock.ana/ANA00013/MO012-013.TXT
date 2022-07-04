@@ -1,0 +1,6 @@
+//MO012-013.TXT ANA00012 TO ANA00013
+tb_mvt		TAR	569	nouvelle taille enregistrement : 569
+tb_mvt	Ref_service	RUB+		Ref_service est une nouvelle clé
+tb_mvt	Ref_bailleur	RUB+		Ref_bailleur est une nouvelle clé
+Peut effectuer		NWL	tb_service (IDtb_service) et tb_mvt (Ref_service)	Nouvelle liaison entre les fichiers tb_service (IDtb_service) et tb_mvt (Ref_service)
+Contrainte_tb_bailleur_tb_mvt		NWL	tb_bailleur (IDtb_bailleur) et tb_mvt (Ref_bailleur)	Nouvelle liaison entre les fichiers tb_bailleur (IDtb_bailleur) et tb_mvt (Ref_bailleur)

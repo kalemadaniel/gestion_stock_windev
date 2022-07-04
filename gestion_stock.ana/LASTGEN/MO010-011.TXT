@@ -1,0 +1,3 @@
+//MO010-011.TXT ANA00010 TO ANA00011
+tb_produit		TAR	87	nouvelle taille enregistrement : 87
+tb_produit	NumeroSerie	RUB-		la rubrique NumeroSerie est supprimée

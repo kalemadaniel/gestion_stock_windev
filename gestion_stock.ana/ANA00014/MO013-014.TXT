@@ -1,0 +1,3 @@
+//MO013-014.TXT ANA00013 TO ANA00014
+tb_mvt		TAR	580	nouvelle taille enregistrement : 580
+tb_mvt	type_facture	RUB+		type_facture est une nouvelle rubrique
